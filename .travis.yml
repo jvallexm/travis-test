@@ -2,6 +2,7 @@ language: node_js
 node_js:
   - '10'
 deploy:
+  provider: heroku
   api_key:
     secure: cDhao8TwvUShFT7R2uut7/cXITPm3rmAGZ1pDmToJrtNHd0S+sWDlwaUWC244V/atQ+YTAqXCWkU+BX5LSvGaox2OXO75XBKIxm02llPRIvfyGTk3KLJxamymYLJkb/ytTQSemEjoA/pgXlBzOGTjmvaOmu1BhKiKh8GBKoD8MgLQrc/CPuM+gWIRZlgpKzScw+9+Bgix04YE4e9WxB8wLM/rL1R7qJTr9uT+KrlcykYk4geGiYekBCgfQOJGFI93hFv8Nc8fsf2WmcWhZVOp4qsSEKreKzHVEFKbzfPAu6sujKABgExA1KP7TQ4QFcLNq78L1zfR40jZVSsGsu5Afk3NnzurBqjFGh7fkmS45bu0YS4S+LEDAOtQC51g/N4K52kn9x4MMmzkomVJIUf+idos6TwHy45w/pARxhhhgtWfYmrA5riWdjlKsm84N0iWWFD2DVOX2ElzuR6dBaOMUXhiigLSoslNAaZIqF0rU/jdddgptbE6+lKpl9yv6L0XUqqEodaBqVn2kN79xwfRWEU6ighDCFt5+g+4G1ng+sQE5AScTRUIGghpLRIn9OFDp3Gox7fWqACpk9PxyS/KfJt+Ixb8LPbrEvZ/lZGXb+BrtIgC4wKTQ/Tyai2xlYnhx4iKeBrj+Kez9m57zAKh/vZn9E/izqsFJrMt8TurXM=
-    app: jvalle-travis-test
+  app: jvalle-travis-test

@@ -9,6 +9,7 @@
     "test": "node --version"
   },
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "travis": "^0.1.1"
   }
 }

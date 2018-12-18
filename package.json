@@ -5,6 +5,9 @@
   "main": "server.js",
   "repository": "",
   "author": "Jennifer Valle",
+  "scripts": {
+    "test": "node --version"
+  },
   "dependencies": {
     "express": "^4.16.4"
   }

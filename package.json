@@ -6,6 +6,6 @@
   "repository": "",
   "author": "Jennifer Valle",
   "dependencies": {
-    "express": "^3.2.6"
+    "express": "^4.16.4"
   }
 }
